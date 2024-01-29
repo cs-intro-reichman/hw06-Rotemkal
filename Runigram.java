@@ -82,7 +82,7 @@ public class Runigram {
 					flippedImage[i][j] = image[i][image[0].length - 1 - j];
 				}
 			}
-			return flippedHImage;
+			return flippedImage;
 		}
 	/**
 	 * Returns an image which is the vertically flipped version of the given image. 
