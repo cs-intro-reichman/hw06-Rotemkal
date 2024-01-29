@@ -79,12 +79,11 @@ public class Runigram {
 		Color[][] flipped = new Color[image.length][image[0].length];
 		for (int i = 0 ; i < flipped.length ; i ++) {
 			for ( int j = 0 ; j < flipped[0].length ; j ++){
-				flipped [i][j] = image[i][flipped[0].length-j-1];
+				flipped [i][flipped[0].length - j - 1] = image[i][j];
 			}
 		}
 		return flipped;
 	}
-	
 	/**
 	 * Returns an image which is the vertically flipped version of the given image. 
 	 */
