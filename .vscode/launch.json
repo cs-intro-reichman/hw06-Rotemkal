@@ -1,0 +1,55 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Editor4",
+            "request": "launch",
+            "mainClass": "Editor4",
+            "projectName": "hw06-Rotemkal_b2577bae"
+        },
+        {
+            "type": "java",
+            "name": "Editor1",
+            "request": "launch",
+            "mainClass": "Editor1",
+            "projectName": "hw06-Rotemkal_b2577bae"
+        },
+        {
+            "type": "java",
+            "name": "In",
+            "request": "launch",
+            "mainClass": "In",
+            "projectName": "hw06-Rotemkal_b2577bae"
+        },
+        {
+            "type": "java",
+            "name": "Runigram",
+            "request": "launch",
+            "mainClass": "Runigram",
+            "projectName": "hw06-Rotemkal_b2577bae"
+        },
+        {
+            "type": "java",
+            "name": "ColorDemo",
+            "request": "launch",
+            "mainClass": "ColorDemo",
+            "projectName": "hw06-Rotemkal_b2577bae"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "Editor4",
+            "args": [
+                "thor.ppm",
+                50
+            ]
+        }
+    ]
+}
